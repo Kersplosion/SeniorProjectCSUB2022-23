@@ -43,8 +43,9 @@ img {
     flex-basis: 18%;
     background: rgb(8, 8, 186);
     font-size: 15px;
-    padding-left: 1px 15px;
-    color:white;
+    /*padding-left: 1px 15px;*/
+    padding: 10px 20px;
+    color: white;
 }
 
 footer {
@@ -56,3 +57,15 @@ footer {
     border-top: 5px solid rgba(240, 240, 14, 0.977);
 }
 
+.click {
+    background-color:rgba(240, 240, 14, 0.977);
+    padding: 10px 30px;
+    color:rgb(8, 8, 186);
+    border-radius: 7px;
+}
+
+.click:hover {
+    cursor: pointer;
+    background-color:rgba(172, 172, 46, 0.977);
+    color: white;
+}
