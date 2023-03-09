@@ -1,0 +1,371 @@
+/* Source code for login2.css: https://shib.csub.edu/idp/Authn/External?conversation=e1s1 */ 
+
+
+/* 
+  -- Even more rounded corners with CSS: Base stylesheet --
+*/
+.panel
+{
+	margin: 0px auto;
+	min-width: 8em;
+	max-width: 1560px;
+	/* based on image dimensions */
+	color: #333333;
+	z-index: 1;
+	position: relative;
+	margin-left: 36px; /* default, width of left corner */
+	margin-bottom: 9px; /* spacing under dialog */
+    	font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", Verdana, "Verdana CE", sans-serif;
+	font-size: 8pt;
+}
+
+.panel .content
+{
+	padding: 0.5em 1em 0.5em 0px;
+}
+
+.panel .content,
+.panel .top-left-corner,
+.panel .bottom,
+.panel .bottom-left-corner
+{
+	background: transparent url(../images/panel-active.png) no-repeat top right;
+	_background-image: url(../images/panel-active.gif);
+}
+
+.panel.collapsed .content,
+.panel.collapsed .top-left-corner,
+.panel.collapsed .bottom,
+.panel.collapsed .bottom-left-corner
+{
+	height: 32px; /* height of panel header bar */
+}
+
+.panel .content
+{
+	position: relative;
+	zoom: 1;
+	_overflow-y: hidden;
+	padding: 0px 36px 0px 0px;
+}
+
+.panel .top-left-corner
+{ /* top+left vertical slice */
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 36px; /* top slice width */
+	margin-left: -36px;
+	height: 100%;
+	_height: 1600px; /* arbitrary long height, IE 6 */
+	background-position: top left;
+}
+
+.panel .bottom
+{ /* bottom */
+	width: 100%;
+}
+
+.panel .bottom,
+.panel .bottom-left-corner
+{
+	height: 20px; /* height of bottom cap/shade */
+	font-size: 1px;
+}
+
+.panel .bottom
+{
+	background-position: bottom right;
+}
+
+.panel .bottom-left-corner
+{
+	position: absolute; /*changed from relative to absolute to Fix IE issue no 8639*/
+	
+	width: 36px; /* bottom corner width */
+	margin-left: -36px;
+	background-position: bottom left;
+}
+
+.panel .wrapper
+{
+	/* extra content protector - preventing vertical overflow (past background) */
+	min-height: 30px;
+	padding-top: 12px;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+	position: static;
+	max-height: 1550px;
+	overflow: auto;
+	/* note that overflow:auto causes a rather annoying redraw "lag" in Firefox 2, and may degrade performance. Might be worth trying without if you aren't worried about height/overflow issues. */
+}
+
+.panel p
+{
+	margin: 0px; /* margins will blow out backgrounds, leaving whitespace. */
+	padding: 0.5em 0px 0.5em 0px;
+}
+
+.panel h1 {
+	padding-bottom: 0px;
+}
+
+.panel h3
+{
+	color: #333333;
+	width: 100%;
+	text-align: left;
+	position: relative;
+	top: 8px;
+	font-size: 11pt;
+	min-height: 18px;
+}
+
+.panelheader
+{
+	left: 19px;
+}
+
+.panelnumberheader
+{
+	left: -20px;
+}
+
+.panelnumber
+{
+	color: #ffffff;
+	margin-right: 31px;
+}
+
+.panel.numbered .content,
+.panel.numbered .top-left-corner,
+.panel.numbered .bottom,
+.panel.numbered .bottom-left-corner
+{
+	background-image: url(../images/panel-active-numbered.png);
+	_background-image: url(../images/panel-active-numbered.gif);
+}
+
+.panel.numbered.disabled .content,
+.panel.numbered.disabled .top-left-corner,
+.panel.numbered.disabled .bottom,
+.panel.numbered.disabled .bottom-left-corner
+{
+	background-image: url(../images/panel-disabled-numbered.png);
+	_background-image: url(../images/panel-disabled-numbered.gif);
+}
+
+.panel.numbered.disabled h3
+{
+	color: #666666;
+}
+
+.panel.overflowRelative .wrapper
+{
+/* extra content protector - preventing vertical overflow (past background) */
+	min-height: 30px;
+	padding-top: 12px;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+	position: relative;
+	max-height: 1550px;
+	overflow: auto;
+	/* note that overflow:auto causes a rather annoying redraw "lag" in Firefox 2, and may degrade performance. Might be worth trying without if you aren't worried about height/overflow issues. */
+
+}
+
+.panel.overflowRelative1 .wrapper
+{
+/* extra content protector - preventing vertical overflow (past background) */
+	min-height: 30px;
+	padding-top: 12px;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+	
+	
+	max-height: 1550px;
+	
+	overflow: auto;
+	/* note that overflow:auto causes a rather annoying redraw "lag" in Firefox 2, and may degrade performance. Might be worth trying without if you aren't worried about height/overflow issues. */
+
+}
+
+	
+.panel.greenwhite .content,
+.panel.greenwhite .top-left-corner,
+.panel.greenwhite .bottom,
+.panel.greenwhite .bottom-left-corner
+{
+	background-image: url(../images/panel-active-nobox-white.png);
+	_background-image: url(../images/panel-active-nobox-white.gif);
+}
+
+.panel.greenwhite .wrapper
+{
+	min-height: 25px;
+	padding-top: 20px;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+}
+
+.panel.cfrmicondlg
+{
+	margin-left: 16px;
+	font-weight: bold;
+	font-size: 10pt;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+}
+
+.panel.cfrmicondlg .content,
+.panel.cfrmicondlg .top-left-corner,
+.panel.cfrmicondlg .bottom,
+.panel.cfrmicondlg .bottom-left-corner
+{
+	background-image: url(../images/panel-confirmation.png);
+	_background-image: url(../images/panel-confirmation.gif);
+	font-weight: bold;
+}
+
+.panel.cfrmicondlg .bottom-left-corner,
+.panel.cfrmicondlg .top-left-corner
+{
+	width: 90px; /* bottom corner width */
+	margin-left: -90px;
+}
+
+.panel.cfrmicondlg  .content
+{
+	padding: 0px 16px 0px 0px;
+}
+
+.panel.cfrmicondlg  .wrapper
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	min-height: 115px;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+}
+
+.panel.cfrmicondlg .dlgicon
+{
+	position: absolute;
+	top: 25px;
+	left: -70px;
+}
+
+.panel.cfrmicondlg .message
+{
+	float: left;
+    margin: 20px 10px 10px 5px;
+	min-height: 65px;
+}
+
+.panel.cfrmicondlg .footer
+{
+	clear: both;
+	text-align: left;
+	margin-left: 5px;
+}
+
+.panel.logonloc .wrapper
+{
+	min-height: 95px;
+	padding-top: 25px;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+}
+
+.panel.whiteRoundDlg .content,
+.panel.whiteRoundDlg .top-left-corner,
+.panel.whiteRoundDlg .bottom,
+.panel.whiteRoundDlg .bottom-left-corner
+{
+	background-image: url(../images/panel-active-nobox-white.png);
+	_background-image: url(../images/panel-active-nobox-white.gif);
+}
+
+.panel.whiteRoundDlg .wrapper
+{
+	min-height: 25px;
+	padding-top: 5px;
+	z-index: 3000;
+	position: relative;
+	margin-right: -20px;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+}
+
+.panel.whiteRoundDlg .top-left-corner,
+.panel.whiteRoundDlg .bottom-left-corner
+{
+  margin-left: -12px;
+}
+
+.panel.whiteYellowRoundDlg .content,
+.panel.whiteYellowRoundDlg .top-left-corner,
+.panel.whiteYellowRoundDlg .bottom,
+.panel.whiteYellowRoundDlg .bottom-left-corner
+{
+	background-image: url(../images/panel-active-nobox-white.png);
+	_background-image: url(../images/panel-active-nobox-white.gif);
+}
+
+.panel.whiteYellowRoundDlg .wrapper
+{
+	min-height: 25px;
+	padding-top: 1px;
+	z-index: 3000;
+	position: relative;
+	margin-right: -60px;
+	left: -32px;
+	top: -4px;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+}
+
+.panel.whiteYellowRoundDlg .top-left-corner,
+.panel.whiteYellowRoundDlg .bottom-left-corner
+{
+  margin-right: -13px;
+}
+
+.whiteYellow
+{
+    font-size: 8pt;
+    background-color: #FFFFCD;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-bottom: 15px;
+}
+
+.whiteYellowRound
+{
+    font-size: 8pt;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-bottom: 5px;
+}
+
+.panel.bannert
+{
+	margin-top: 0px;
+	margin-left: 39px;
+	/* minimum content height, so bottom shade fills in nicely - can ignore if no gradient in dialog, etc. */
+}
+
+.panel.bannert .content,
+.panel.bannert .top-left-corner,
+.panel.bannert .bottom,
+.panel.bannert .bottom-left-corner
+{
+	background-image: url(../images/banner_new-blank.png);
+	_background-image: url(../images/banner_new-blank.gif);
+	height: 113px;
+}
+
+.panel.bannert .bottom-left-corner,
+.panel.bannert .top-left-corner
+{
+	width: 39px; /* bottom corner width */
+	margin-left: -39px;
+}
+
+.panel.bannert .content
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}

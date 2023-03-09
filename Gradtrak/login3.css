@@ -1,0 +1,493 @@
+/* Source code for login3.css: https://shib.csub.edu/idp/Authn/External?conversation=e1s1 */ 
+
+
+
+html, body {
+    background-color: white;
+}
+
+.logonbody {
+    min-width: 300px;
+}
+
+.containerwrap .container {
+    min-width: 300px !important;
+    max-width: 100% !important;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+}
+
+a {
+    color: #003594;
+    font-size: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+p {
+    line-height: 24px;
+}
+
+.logonbody {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top:0;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginPanel {
+    border-radius: 8px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 16px 0;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 40px 8px 10px 8px;
+    color: #cccccc;
+}
+
+#footerLogo {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logonloc {
+    top: 0;
+}
+
+/* STRUCTURE */
+
+.wrapper {
+    width: 450px;
+    padding: 0;
+}
+
+#formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px 16px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    -webkit-appearance: none;
+}
+
+#formFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+}
+
+.csubLoginHeader {
+    background-color: #003594;
+    padding: 40px 0;
+}
+
+.csubLoginBody {
+    padding: 0 16px;
+}
+
+#sysMsg,
+#errorMsg {
+    padding: .75rem 1.25rem;
+    text-align:center;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#sysMsg h4 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 0.8rem;
+}
+
+#sysMsg p,
+#errorMsg p {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+/* TABS */
+
+h2.inactive {
+    color: #cccccc;
+}
+
+h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+}
+
+.loginUserIdArea {
+    line-height: 1.25em;
+    -webkit-appearance: none;
+}
+
+#loginPanel {
+    border-radius: 8px;
+}
+
+/* FORM TYPOGRAPHY*/
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #003594 !important;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(119,119,119,0.4);
+    box-shadow: 0 10px 30px 0 rgba(119,119,119,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 180px;
+    height: 45px;
+    margin: 0 auto 40px auto;
+    -webkit-appearance: none;
+}
+
+input[type=button]:hover, input[type=button]:focus,
+input[type=submit]:hover, input[type=submit]:focus,
+input[type=reset]:hover, input[type=reset]:focus
+{    background-color: #001A70 !important;
+    -webkit-appearance: none;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-appearance: none;
+}
+
+input[type=text] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 100%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-appearance: none;
+}
+
+input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+    -webkit-appearance: none;
+}
+
+input[type=text]:placeholder {
+    color: #cccccc;
+    -webkit-appearance: none;
+}
+
+input[type=password] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 100%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-appearance: none;
+}
+
+input[type=password]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+    -webkit-appearance: none;
+}
+
+input[type=password]:placeholder {
+    color: #cccccc;
+    -webkit-appearance: none;
+}
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+/* Simple CSS3 Fade-in Animation */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+/* Simple CSS3 Fade-in Animation */
+
+.underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+}
+
+.underlineHover:hover
+.underlineHover:focus {
+    color: #0d0d0d;
+}
+
+.underlineHover:hover:after,
+.underlineHover:focus:after {
+    width: 100%;
+}
+
+/* OTHERS */
+
+*:focus {
+    outline: none;
+}
+
+#icon {
+    width: 40%;
+    margin: 20px 0
+}
+
+#duo_iframe {
+    max-width: 100%;
+    padding: 16px 0;
+}
+
+@media only screen and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 2) {
+    #duo_iframe {
+        width: 100%;
+    }
+
+    #loginPanel {
+        margin: 0px;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .logonbody {
+        margin-right: auto;
+        margin-left: auto;
+        min-height: 0px;
+        min-width: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .logonbody {
+        margin-right: auto;
+        margin-left: auto;
+        min-height: 0px;
+        min-width: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .csubLoginBody {
+        padding: 0 8px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 450px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    wrapper {
+        width: 95%;
+    }
+}
+
+/* (added 02/20) INFO SECTION - DOWNLOAD THE APP */
+#info img {
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+  }
+
+  #info a:link {
+    display: block;
+    text-decoration: none;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+ #duoSection {
+    padding: 1rem;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+ }
+ #duoSection img{
+     height: 50px;
+ }
+ 
+ #duoSection a:link {
+     display: block;
+     margin: 4px auto;
+ }
+
+.duoLink{
+    line-height: 1.4;
+}
