@@ -1,40 +1,446 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(270deg, yellow, blue);
-    font-family: Arial, Helvetica, sans-serif;
+/* Source code for login.css: https://shib.csub.edu/idp/Authn/External?conversation=e1s1 */ 
+
+
+/* main body style */
+html, body
+{
+  margin:0;
+  padding:0;
+  height:100%;
+  background-color: #f2f2f2;
 }
 
-
-#login {
-    position: relative;
-    background: white;
-    width: 350px;
-    height: 450px;
-    border: 2px solid black;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px black;
-
+html,
+body,
+input,
+textarea,
+select,
+label,
+table,
+a,
+h2,
+h3,
+h4,
+h5,
+.res-detail-permissions,
+.rich-subtable-footercell,
+.subtablecell,
+.txtinput,
+.commentCls,
+.superscript,
+.dateRangeCompFont,
+.dr-table-cell,
+.dr-pnl,
+.dr-pnl-b,
+.dr-pnl-h,
+.dr-tbpnl-tb,
+.dr-tbpnl-cntnt,
+.dr-subtable-cell,
+.dr-table-footercell,
+.rich-table-headercell,
+.rich-table-subheadercell,
+.target-cell,
+.rich-shuttle-source-cell,
+.rich-shuttle-source-cell-active,
+.rich-shuttle-source-cell-selected,
+.rich-shuttle-source-caption,
+.rich-shuttle-target-cell,
+.rich-shuttle-target-cell-active,
+.rich-shuttle-target-cell-selected,
+.rich-shuttle-target-caption,
+.rich-list-shuttle-button-content,
+.panel,
+.subLevelTreeTbl,
+.user-entitlement-table-cell,
+.user-access-table-cell,
+.user-entitlement-table-hdr
+{
+	font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", Verdana, "Verdana CE", sans-serif;
+	font-size: 10pt;
 }
 
-input {
-    width: 96%;
-    height: 50%;
-
+.text-headline, h2 {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
 }
 
-.h2 {
-    font-size:larger;
-    text-align: center;
-    background-color: rgb(8, 8, 186);
-    height: 100%;
-    padding: 5px;
-    color: yellow;
-    border-top: 8px;
+form 
+{
+	margin: 0;
+	padding: 0;
+}
 
+.logonbody
+{
+	min-width: 900px;
+	min-height: 350px;
+	text-align: center;
+	padding-top: 10em;
+}
+
+.logonloc
+{ 
+	width: 400px; 
+	position: relative;
+	top: 50px;
+	text-align: left;
+	background-color: white;
+	padding: 0.5em 1.5em 1.5em 1.5em;
+}
+
+ .logonloc {
+	border-radius: 2px;
+	box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+
+.logonTitle{
+	margin-left: 2em;
+}
+
+.loginUserIdArea
+{
+	line-height: 1.25em;
+}
+
+.loginButton
+{
+	margin: 1em 0;
+}
+
+.loginlink
+{
+	color: #536b78;
+}
+
+.loginButton,
+.smsLoginButton
+{
+	width: 100%;
+	min-width: 64px;
+	padding: 0px 12px 0px 12px;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	border-radius: 2px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	-webkit-tap-highlight-color: transparent;
+	background-color: #536b78 !important;
+	color: white;
+	line-height: 36px;
+	cursor: pointer;
+}
+
+.smsLoginButton:disabled
+{
+	background-color: #D2D2D2 !important;
+	cursor: default;
+}
+
+.logoloc
+{
+	width: 150px; 
+	position: relative;
+	top: 100px;
+	text-align: left;
+}
+
+.container
+{
+	padding: 0px 35px 25px 35px;
+}
+
+.containerwrap
+{
+	min-height: 99%;
+}
+
+.containerwrap .container {
+	margin: auto;
+	min-width: 1000px !important;
+}
+
+.screenfooter
+{
+	position: relative;
+	margin-top: -30px;
+	height: 20px;
+	text-align: left;
+	font-size: 10pt;
+	clear: both;
+	color: #006699;
+	border-top: thin dotted rgb(0,102,153);
+	padding-top: 5px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+.logonheader
+{
+	min-width: 800px;
+}
+
+.loginlefthalf
+{
+	padding-right: 4px;
+	line-height: 2em;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.qrcode {
+	width: 200px;
+	height: 200px;
+}
+
+.maxwidth
+{
+	width: 100%;
+}
+
+.loginInput
+{
+	width: 100%;
+	border: 1px solid #999999;
+	padding: 2px;
+	padding-left: 4px;
+}
+.smsloginInput
+{
+	width: 100%;
+	border: 1px solid #999999;
+}
+/* styles used for banner at top of screen */
+
+.banner
+{
+	margin-left: 75px;
+	margin-right: 70px;
+	margin-top: 0px;
+}
+
+.bannerLogo
+{
+	margin-right: 2em;
+	max-height: 75px;
+	max-width: 120px;
+}
+
+.bannerText
+{
+	font-size: x-large;
+	font-weight: normal;
+	white-space: normal;
+	word-wrap: break-word;
+	color: #fff;
+}
+
+.bannerLeft
+{
+	float: left;
+}
+
+.bannerMid
+{
+	float: left;
+	max-width: 600px;
+}
+
+.bannerRight
+{
+	float: right;
+	white-space: nowrap;
+	position: absolute;
+	top: 0;
+	right: 35px;
+}
+
+.boldText
+{
+	font-weight: bold;
+}
+
+.site-header {
+	background-color: #536b78 !important;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+	text-align: left;
+	padding-bottom: 42px;
+}
+
+.short-header {
+	padding-bottom: 4px !important;
+}
+
+.busyloc
+{
+	position: absolute;
+	top: 28px;
+	right: 0;
+}
+
+.busylocpad
+{
+	margin-right: 50px;
+}
+
+.sectionbody
+{
+	font-size: 10pt;
+	color: #000000;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: .5cm;
+	padding-right: .5cm;
+	padding-bottom: 10px;
+}
+
+.sectionbodytext
+{
+	font-size: 10pt;
+	color: #000000;
+}
+
+.floatRight
+{
+	float: right;
+}
+
+.center
+{
+	text-align: center; 
+}
+
+.right
+{
+	text-align: right;
+}
+
+.left
+{
+	text-align: left;
+}
+
+.leftMargin10
+{
+	margin-left: 10px;
+}
+
+.buttonL4
+{
+	font-size: 11pt;
+	color: #000000;
+	background-color: #cae3a5;
+	height: 26px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.buttonL4Disabled
+{
+	background-color: #D2D2D2;
+}
+
+.startOver
+{
+	right: 33px;
+	text-decoration: none;
+	top: 5px;
+	position: relative;
+	font-size: 13px;
+	color: #fff;
+}
+
+.progress {
+	padding: 0px;
+	margin: 0px ! important;
+	position: relative;
+	top: 0;
+	left:0;
+	height: 4px;
+	display: block;
+	width: 100%;
+	border-radius: 2px;
+	background-clip: padding-box;
+	margin: 0.5rem 0 1rem 0;
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+
+.progress .indeterminate:before {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	will-change: left, right;
+	-webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+	animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+}
+
+.progress .indeterminate:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	will-change: left, right;
+	-webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+	animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+	-webkit-animation-delay: 1.15s;
+	animation-delay: 1.15s;
+}
+
+@-webkit-keyframes indeterminate {
+    0% {
+        left: -35%;
+        right: 100%; }
+    60% {
+        left: 100%;
+        right: -90%; }
+    100% {
+        left: 100%;
+        right: -90%; } }
+@keyframes indeterminate {
+    0% {
+        left: -35%;
+        right: 100%; }
+    60% {
+        left: 100%;
+        right: -90%; }
+    100% {
+        left: 100%;
+        right: -90%; } }
+@-webkit-keyframes indeterminate-short {
+    0% {
+        left: -200%;
+        right: 100%; }
+    60% {
+        left: 107%;
+        right: -8%; }
+    100% {
+        left: 107%;
+        right: -8%; } }
+@keyframes indeterminate-short {
+    0% {
+        left: -200%;
+        right: 100%; }
+    60% {
+        left: 107%;
+        right: -8%; }
+    100% {
+        left: 107%;
+        right: -8%; }
+}
+
+.progress {
+	background-color: #90CAF9;
+}
+
+.progress .indeterminate {
+	background-color: #2196F3;
 }
