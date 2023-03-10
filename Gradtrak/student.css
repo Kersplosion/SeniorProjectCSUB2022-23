@@ -48,6 +48,41 @@ h4 {
     color: rgb(8, 8, 186);
 }
 
+/* Change color of jumpotron background */
+.jumbotron {
+    background-color: rgb(8, 8, 186);
+    color: white;
+}
+
+/* Change containter fluid2 background color  */
+.container-fluid2 {
+    background-color: rgb(8, 8, 186);
+    border-color:rgb(240, 240, 14);
+    color: white;
+}
+
+/* Change column text color to black and align text center */
+.col-sm-3 {
+    color: black;
+    text-align: center;
+}
+
+/* Change background color of div class "contact" */
+.contact {
+    background-color: rgb(240, 240, 14);
+    padding: 10px;
+}
+
+/*change div class contact link color */
+.contact a {
+    color: rgb(8, 8, 186);
+}
+
+/* contact link color grey on hover */
+.contact a:hover {
+    color: grey;
+}
+
 
 
 
