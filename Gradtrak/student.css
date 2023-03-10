@@ -1,0 +1,54 @@
+h4 {
+    text-align: center;
+}
+
+/*Change bootstrap css navbar header color */
+.navbar.navbar-inverse  {
+    background-color: rgb(8, 8, 186);
+    border-color: rgb(8, 8, 186);
+    border-bottom: 5px solid rgba(240, 240, 14, 0.977);
+    padding: 15px;
+}
+/*Change bootstrap css navbar dropdown button hover */
+.navbar.navbar-inverse .navbar-toggle:hover {
+    background-color: rgb(240, 240, 14);
+}
+/*Change bootstrap css navbar dropdown button active color */
+.navbar.navbar-inverse .navbar-toggle:focus {
+    background-color: rgb(240, 240, 14);
+}
+
+/*Change bootstrap css navbar header color */
+.navbar.navbar-inverse .navbar-brand {
+    color: white;
+    font-size: 25px;
+}
+
+/*Change bootstrap css navbar contact link color */
+.navbar.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+/*Change bootstrap css navbar active page background color */
+.navbar.navbar-inverse .navbar-nav > .active > a {
+    background-color: rgb(240, 240, 14);
+}
+/*Change bootstrap css navbar active page hover link color */
+.navbar.navbar-inverse .navbar-nav > .active > a:hover {
+    color: grey;
+}
+
+/*Change bootstrap css navbar contact hover link color */
+.navbar.navbar-inverse .navbar-nav > li > a:hover {
+    color: rgb(240, 240, 14);
+}
+
+/*Change bootstrap css navbar active page link color */
+.navbar.navbar-inverse .navbar-nav > .active > a {
+    color: rgb(8, 8, 186);
+}
+
+
+
+
+
