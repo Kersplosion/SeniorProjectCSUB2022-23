@@ -37,3 +37,75 @@
     </div>
   </div>
 </nav>
+<!--Source: https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp -->
+<div class="container">
+  <div class="jumbotron">
+    <h1>About Us</h1>      
+    <p> This application will be used by students to track their progress towards graduation. 
+      The application will also be used by advisors to help students plan their courses and 
+      to help students understand their degree requirements here at CSUB. </p>
+    <P> This application was created by: Shadi Abdul Razzak, Haylee Allen, Justin Ulloa, Tristan Bock</P>
+
+  </div>  
+</div>
+<br>
+<br>
+<div class="container-fluid2 text-center">
+  <h2>Team Members</h2>
+  <h4>About Us</h4>
+  <div class="row text-center">
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="user.jpg" alt="Justin">
+        <p><strong>Justin Ulloa</strong></p>
+        <p> My name is Justin, senior here at CSUB, and I devolped the front-end of the application </p>
+        <br>
+        <div class = "contact"> 
+          <a href="mailto:julloa6@csub.edu">Contact</a>
+            <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="user.jpg" alt="Tristan">
+        <p><strong>Tristan Bock </strong></p>
+        <p>kjdcnkdj cnkdsjcndsklcndlsn clsdkncdskc ndksncdlkjnck jdnckjdnckd jncdkjc ndkjcn</p>
+        <br>
+        <div class = "contact"> 
+          <a href="mailto:">Contact</a>
+            <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="user.jpg" alt="Shadi">
+        <p><strong>Shadi Abdul Razzak </strong></p>
+        <p>jkabcjhd bcjhdabcajc bkacbj akbc ajdcbjacbajccbk bcjkacbjdscbjd scjjksnckjc</p>
+        <br>
+        <div class = "contact"> 
+          <a href="mailto:">Contact</a>
+            <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="user.jpg" alt="Haylee">
+        <p><strong>Haylee Allen</strong></p>
+        <p>kjdnckdj ncdkcndk jcndklcn ldkanckdn knckdjncdjk ncdkjncjdkc ndkjcndkjcn kdjncdjnk</p>
+        <br>
+        <div class = "contact"> 
+          <a href="mailto:">Contact</a>
+            <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
