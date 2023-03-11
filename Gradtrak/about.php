@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navar-fixed top">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -58,7 +58,7 @@
       <div class="thumbnail">
         <img src="user.jpg" alt="Justin">
         <p><strong>Justin Ulloa</strong></p>
-        <p> My name is Justin, senior here at CSUB, and I devolped the front-end of the application </p>
+        <p> My name is Justin, senior here at CSUB, and I developed the front-end of the application </p>
         <br>
         <div class = "contact"> 
           <a href="mailto:julloa6@csub.edu">Contact</a>
