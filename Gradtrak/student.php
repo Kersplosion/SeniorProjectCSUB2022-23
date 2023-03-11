@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navar-fixed top">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -51,7 +51,9 @@
     </div>
     <br>
     <p> Add functionality here</p>
-    
 </div>
+<footer>
+  <h3> Copyright Disclaimer </h3>
+</footer>
 </body>
 </html>
