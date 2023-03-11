@@ -171,14 +171,14 @@
 							<input type="hidden" name="launchKeyAuthenticated" />
 							<div id="loginformaarea" class="loginUserIdArea formContent">
 								<div class="csubLoginHeader">
-									<img src="/idp/images/CSUB-Logo-Stacked.png" alt="CSUB Seal" id="footerLogo"
+									<img src="csub-logo.jpg" alt="CSUB Seal" id="footerLogo"
 										class="img-fluid">
 								</div>
 
 								<div id="duoSection" class="row justify-content-sm-center py-2 m-0">
 									<div class="col-sm-2 col-xs-12 center">
 										<a ref="https://www.csub.edu/2step/duoapp/" target="_blank">
-											<img src="/idp/images/Duologo.png" alt="Duo Logo">
+											<img src="duologo.jpg" alt="Duo Logo">
 										</a>
 									</div>
 								
