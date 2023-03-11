@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .h1 {
@@ -16,45 +16,53 @@ body {
 
 }
 
-/*main {
-    height: 100vh;
+img.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
-*/
+
 .container {
     display: flex;
     justify-content: center;
 }
 
 h2 {
+    font-size: 30px;
     text-align: center;
-    color: white;
-}
-
-img {
-    height: 100%;
-    max-width: 100%;  
+    color: rgb(21, 21, 142);
 }
 
 .text {
-    margin-right: 3%;
-    margin-left: 10%;
-    flex-grow: 2;
-    flex-shrink: 4;
-    flex-basis: 18%;
-    background: rgb(8, 8, 186);
-    font-size: 15px;
-    /*padding-left: 1px 15px;*/
+    text-align: center;
+    width: 35%;
+    background: white;
+    font-size: 20px;
     padding: 15px 25px;
-    color: white;
+    border-radius: 6px;
+    /* transparent */
+    opacity: 0.9;
+}
+
+p {
+    color: black;
+    font-weight: 400;
 }
 
 footer {
     text-align: center;
     background-color:rgb(8, 8, 186);
-    font-size: 15;
+    font-size: 15px;
     color: white;
     padding: 10px;
     border-top: 5px solid rgba(240, 240, 14, 0.977);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .click {
