@@ -107,5 +107,12 @@
       </div>
     </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <h3> Copyright Disclaimer </h3>
+</footer>
 </body>
 </html>
