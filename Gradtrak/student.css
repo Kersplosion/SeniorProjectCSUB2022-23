@@ -6,8 +6,16 @@ h4 {
     text-align: center;
 }
 
+img {
+    width: 50%;
+}
+
 /*Change bootstrap css navbar header color */
 .navbar.navbar-inverse  {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
     background-color: rgb(8, 8, 186);
     border-color: rgb(8, 8, 186);
     border-bottom: 5px solid rgba(240, 240, 14, 0.977);
