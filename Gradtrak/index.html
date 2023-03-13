@@ -3,39 +3,39 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href= "index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <title>GradTrak</title>
     </head>
     <body>
-        <header>
-            <div class = "h1">
-                <h1> GradTrak </h1>
-            </div>
-        </header>
-        <br>
-        <br>
-        <main>
-            <br>
-            <div class = "container">
-                <div class = "image">
-                    <img class = "background" src = csub.jpg alt = "CSUB Logo">
+        <div class="jumbotron">
+            <h1>GradTrak</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Welcome to GradTrak! </h2>
+                    <p>GradTrak is a web-based application that allows students to track their progress towards the 
+                        completion of their degree. This application is designed by a team of students that will be 
+                        used by students and advisors here at Cal State University, Bakersfield.</p>
+                <div class="col-sm-6">
+                    <h3>Ready To Login?</h3>
+                    <p>Use your NetID and password to Log in and track your progress!</p>
+                    <p><a class="btn btn-primary" href="login.php" role="button">Click me to Log In &raquo;</a></p>
                 </div>
-                <div class = "text">    
-                    <h2> Welcome to GradTrak! </h2>
-                        <br>
-                        <p> If you are a current student enrolled here at CSUB, then
-                        click on the link below to Log in using your NetID and Password!      
-                        </p>
-                        <br>
-                        <form action = "login.php" method = "POST">
-                            <input type = "submit" class = "click" name = "clickme" value = "Click here to Log In!">
-                        </form>
+                <div class="col-sm-6">
+                    <h3>First Time User?</h3>
+                    <p> Additional information </p>
+                    <p><a class="btn btn-primary" href="first_time_user.jpg" role="button">Click here &raquo;</a></p>
                 </div>
             </div>
-        </main>
+        </div>
         <br>
-        <footer>
-            <h3> Copyright Disclaimer </h3>
+        <footer class="footer-bottom">
+            <p2>© 2023 GradTrak. All rights reserved.</p2>
         </footer>
     </body>
 </html>
+    
