@@ -1,79 +1,75 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("csub.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: grey;
+    background-blend-mode: multiply;
+
+}
+h1 {
+    font-size: 35px;
 }
 
-.h1 {
-    padding: 5px;
+h5 { 
+    font-size: 20px;
+}
+
+
+.jumbotron {
+    /* background-color to blue */
     background-color: rgb(8, 8, 186);
+    border-bottom: 5px solid rgba(240, 240, 14, 0.977);
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
-    border-bottom: 5px solid rgba(240, 240, 14, 0.977);
-    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 
 }
-
-img.background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-}
-
 .container {
-    display: flex;
-    justify-content: center;
-}
-
-h2 {
-    font-size: 30px;
-    text-align: center;
-    color: rgb(21, 21, 142);
-}
-
-.text {
-    text-align: center;
-    width: 35%;
-    background: white;
-    font-size: 20px;
-    padding: 15px 25px;
+    color: rgb(5, 5, 166);
+    background-color: white;
+    padding: 20px 50px;
     border-radius: 6px;
-    /* transparent */
-    opacity: 0.9;
 }
 
 p {
     color: black;
-    font-weight: 400;
+}
+
+p2 {
+    color: white;
+}
+
+.btn-primary {
+    background-color: rgb(8, 8, 186);
+    border-color: rgba(240, 240, 14, 0.977);
+    color: rgba(240, 240, 14, 0.977);
+}
+
+.btn-primary:hover {
+    background-color: rgba(240, 240, 14, 0.977);
+    border-color: rgb(8, 8, 186);
+    color: white;
 }
 
 footer {
     text-align: center;
     background-color:rgb(8, 8, 186);
-    font-size: 15px;
-    color: white;
     padding: 10px;
+    color: white;
     border-top: 5px solid rgba(240, 240, 14, 0.977);
+    /* footer stick to the bottom of the page */
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
-.click {
-    background-color:rgba(240, 240, 14, 0.977);
-    padding: 10px 30px;
-    color:rgb(8, 8, 186);
-    border-radius: 7px;
-}
 
-.click:hover {
-    cursor: pointer;
-    background-color:rgba(172, 172, 46, 0.977);
-    color: white;
-}
+
+
+
+
+
