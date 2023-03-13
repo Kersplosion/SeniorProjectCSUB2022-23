@@ -37,7 +37,10 @@
     </div>
   </div>
 </nav>
-  
+<br>
+<br>
+<br>
+<br>  
 <div class="container">
   <h3>Welcome "Student Name Here"</h3>
   <br>
@@ -52,6 +55,10 @@
     <br>
     <p> Add functionality here</p>
 </div>
+<br>
+<br>
+<br>
+<br>
 <footer>
   <h3> Copyright Disclaimer </h3>
 </footer>
