@@ -67,11 +67,13 @@ img {
 }
 
 /* Change containter fluid2 background color  */
+/*
 .container-fluid2 {
     background-color: rgb(8, 8, 186);
     border-color:rgb(240, 240, 14);
     color: white;
 }
+*/
 
 /* Change column text color to black and align text center */
 .col-sm-3 {
