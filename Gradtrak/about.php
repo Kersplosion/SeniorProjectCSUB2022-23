@@ -117,8 +117,8 @@
 <br>
 <br>
 <br>
-<footer>
-  <h3> Copyright Disclaimer </h3>
+<footer class="footer-bottom">
+  <p1>GradTrak © 2023 </p1>
 </footer>
 </body>
 </html>
