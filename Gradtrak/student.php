@@ -241,6 +241,5 @@
 <footer class="footer-bottom">
   <p1>GradTrak © 2023 </p1>
 </footer>
-</footer>
 </body>
 </html>
