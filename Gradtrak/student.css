@@ -104,7 +104,7 @@ img {
     background-color: #f8f8f8; /* Light grey background */
     padding: 20px;
     margin: 20px 10;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px; 
     border: 1px solid #e0e0e0; /* Light grey border */
 }
 
@@ -160,15 +160,15 @@ img {
 
 /* Change the background color of the button */
 .btn-custom-collapsible {
-    background-color: rgb(8, 8, 186); /* Replace with your desired background color */
-    color: white;/* Replace with your desired text color */
+    background-color: rgb(8, 8, 186); 
+    color: white;
 }
 
   /* Change the background color of the button on hover and focus */
 .btn-custom-collapsible:hover,
 .btn-custom-collapsible:focus {
-    background-color: rgb(0, 0, 205); /* Replace with your desired hover background color */
-    color: white; /* Replace with your desired hover text color */
+    background-color: rgb(0, 0, 205); 
+    color: white; 
     text-decoration: none;
     outline: none;
     box-shadow: none;
@@ -176,8 +176,8 @@ img {
 
   /* Change the background color of the table header */
 table.custom-thead > thead > tr > th {
-    background-color: rgb(240, 240, 14); /* Replace with your desired color */
-    color: black; /* Change the text color as needed */
+    background-color: rgb(240, 240, 14); 
+    color: black; 
 } 
 
   /* Add black border to table */
