@@ -1,3 +1,9 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
 h3 {
     font-size: 20px;
 }
@@ -12,6 +18,7 @@ img {
 
 /*Change bootstrap css navbar header color */
 .navbar.navbar-inverse  {
+    z-index: 1000;
     position: fixed;
     top: 0;
     width: 100%;
@@ -19,7 +26,7 @@ img {
     background-color: rgb(8, 8, 186);
     border-color: rgb(8, 8, 186);
     border-bottom: 5px solid rgba(240, 240, 14, 0.977);
-    padding: 15px;
+    padding: 10px;
 }
 /*Change bootstrap css navbar dropdown button hover */
 .navbar.navbar-inverse .navbar-toggle:hover {
@@ -60,6 +67,59 @@ img {
     color: rgb(8, 8, 186);
 }
 
+/* Major Requirements Section */
+.major-requirements {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 40px 10;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.major-requirements h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.major-requirements .progress {
+    height: 25px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.major-requirements .progress-bar {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Hover Effects and Transitions */
+.major-requirements .progress-bar:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s;
+}
+
+.student-info {
+    background-color: #f8f8f8; /* Light grey background */
+    padding: 20px;
+    margin: 20px 10;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #e0e0e0; /* Light grey border */
+}
+
+.student-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.student-info table {
+    width: 100%;
+    text-align: left;
+}
+
 /* Change color of jumpotron background */
 .jumbotron {
     background-color: rgb(8, 8, 186);
@@ -77,6 +137,7 @@ img {
 
 /* Change column text color to black and align text center */
 .col-sm-3 {
+    z-index: inherit;
     color: black;
     text-align: center;
 }
@@ -97,13 +158,61 @@ img {
     color: grey;
 }
 
+/* Change the background color of the button */
+.btn-custom-collapsible {
+    background-color: rgb(8, 8, 186); /* Replace with your desired background color */
+    color: white;/* Replace with your desired text color */
+}
+
+  /* Change the background color of the button on hover and focus */
+.btn-custom-collapsible:hover,
+.btn-custom-collapsible:focus {
+    background-color: rgb(0, 0, 205); /* Replace with your desired hover background color */
+    color: white; /* Replace with your desired hover text color */
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+  /* Change the background color of the table header */
+table.custom-thead > thead > tr > th {
+    background-color: rgb(240, 240, 14); /* Replace with your desired color */
+    color: black; /* Change the text color as needed */
+} 
+
+  /* Add black border to table */
+table.custom-bordered {
+    border-collapse: collapse;
+    border: 1px solid black;
+} 
+
+table.custom-bordered th,
+table.custom-bordered td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+.arrow {
+    transition: transform 0.25s;
+    z-index: 10;
+
+}
+
+.arrow.up {
+    transform: rotate(180deg);
+}
+  
 footer {
+    z-index: 11;
     text-align: center;
     background-color:rgb(8, 8, 186);
-    padding: 3px;
+    padding: 10px;
     color: white;
     border-top: 5px solid rgba(240, 240, 14, 0.977);
-    /* make the footer stick to the bottom of the page */
+    /* footer stick to the bottom of the page */
     position: fixed;
     left: 0;
     bottom: 0;
