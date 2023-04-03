@@ -86,157 +86,671 @@
   </table>
 </div>
 <br>
-<!--Make a collapsible that displays student course history -->
+<!--Accordion that displays student course history -->
 <!-- Source: https://www.w3schools.com/bootstrap/bootstrap_collapse.asp -->
-
+<!-- General Education Requirements -->
 <div class="container">
-  <h3>Required Courses</h3>
-  <a href="#demo1" class="btn btn-custom-collapsible" data-toggle="collapse">Required Courses
-    <span class="arrow glyphicon glyphicon-chevron-down"></span>
-  </a>
-  <div id="demo1" class="collapse">
-    <table class="table table-striped custom-bordered custom-thead">
-      <thead>
-        <tr>
-          <th>Course ID</th>
-          <th>Course Name</th>
-          <th>Grade</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>CS101</td>
-          <td>Introduction to Computer Science</td>
-          <td>A</td>
-          <td style="color: green;">&#x2714;</td>
-        </tr>
-        <tr>
-          <td>MATH201</td>
-          <td>Calculus I</td>
-          <td>B+</td>
-          <td style="color: green;">&#x2714;</td>
-        </tr>
-        <tr>
-          <td>ENGL101</td>
-          <td>Composition and Rhetoric</td>
-          <td>B</td>
-          <td style="color: green;">&#x2714;</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <h3>Completed Courses</h3>
-  <a href="#demo2" class="btn btn-custom-collapsible" data-toggle="collapse">Completed Courses
-    <span class="arrow glyphicon glyphicon-chevron-down"></span>
-  </a>
-  <div id="demo2" class="collapse">
-    <table class="table table-striped custom-bordered custom-thead">
-      <thead>
-        <tr>
-          <th>Course ID</th>
-          <th>Course Name</th>
-          <th>Grade</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>CS101</td>
-          <td>Introduction to Computer Science</td>
-          <td>A</td>
-          <td style="color: green;">&#x2714;</td>
-        </tr>
-        <tr>
-          <td>MATH201</td>
-          <td>Calculus I</td>
-          <td>B+</td>
-          <td style="color: green;">&#x2714;</td>
-        </tr>
-        <tr>
-          <td>ENGL101</td>
-          <td>Composition and Rhetoric</td>
-          <td>B</td>
-          <td style="color: green;">&#x2714;</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <h3>Remaining Courses</h3>
-  <a href="#demo3" class="btn btn-custom-collapsible" data-toggle="collapse">Remaining Courses
-    <span class="arrow glyphicon glyphicon-chevron-down"></span>
-  </a>
-  <div id="demo3" class="collapse">
-    <table class="table table-striped custom-bordered custom-thead">
-      <thead>
-        <tr>
-          <th>Course ID</th>
-          <th>Course Name</th>
-          <th>Grade</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>CS101</td>
-          <td>Introduction to Computer Science</td>
-          <td>N/A</td>
-          <td style="color: red;">&#x2718;</td>
-        </tr>
-        <tr>
-          <td>MATH201</td>
-          <td>Calculus I</td>
-          <td>N/A</td>
-          <td style="color: red;">&#x2718;</td>
-        </tr>
-        <tr>
-          <td>ENGL101</td>
-          <td>Composition and Rhetoric</td>
-          <td>N/A</td>
-          <td style="color: red;">&#x2718;</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <h3>Course History</h3>
-  <a href="#demo4" class="btn btn-custom-collapsible" data-toggle="collapse">Course History
-    <span class="arrow glyphicon glyphicon-chevron-down"></span>
-  </a>
-  <div id="demo4" class="collapse">
-    <table class="table table-striped custom-bordered custom-thead">
-      <thead>
-        <tr>
-          <th>Course ID</th>
-          <th>Course Name</th>
-          <th>Grade</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>CS101</td>
-          <td>Introduction to Computer Science</td>
-          <td>A</td>
-          <td style="color: green;">&#x2714;</td>
-        </tr>
-        <tr>
-          <td>MATH201</td>
-          <td>Calculus I</td>
-          <td>B+</td>
-          <td style="color: red;">&#x2718;</td>
-        </tr>
-        <tr>
-          <td>ENGL101</td>
-          <td>Composition and Rhetoric</td>
-          <td>B</td>
-          <td style="color: green;">&#x2714;</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <div class="panel-group" id="genEdAccordion">
+      <!-- General Education Requirements -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#generalEducation">General Education Requirements
+              <span class="arrow glyphicon glyphicon-chevron-down"></span>
+            </a>
+          </h4>
+        </div>
+        <div id="generalEducation" class="panel-collapse collapse">
+          <div class="panel-body">
+            <div class="panel-group" id="generalEducationAccordion">
+              <!-- Foundational Skills -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#generalEducationAccordion" href="#foundationalSkills">Foundational Skills
+                      <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="foundationalSkills" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <!-- Add table for foundational skills courses here -->
+                    <table class="table table-striped custom-bordered custom-thead">
+                        <thead>
+                          <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>COMM 1088</td>
+                            <td>Communication</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>ENGL 1109</td>
+                            <td>Writing and Research</td>
+                            <td>B+</td>
+                            <td style="color: red;">&#x2718;</td>
+                          </tr>
+                          <tr>
+                            <td>PHIL 1019</td>
+                            <td>Critical Thinking</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                            <tr>
+                                <td>Math 1050</td>
+                                <td>Precalc 1</td>
+                                <td>A</td>
+                                <td style="color: green;">&#x2714;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                   </div>
+                </div>
+                </div>
+              <!-- Natural Sciences -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#generalEducationAccordion" href="#naturalSciences">Natural Sciences
+                      <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="naturalSciences" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                        <thead>
+                          <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>PHYS 2210</td>
+                            <td>Calc-Based Physics</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- American Institutions -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#generalEducationAccordion" href="#americanInstitutions">American Institutions
+                      <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="americanInstitutions" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                        <thead>
+                          <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>PLSI 1018</td>
+                            <td>American Governement & Politics</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>HIST 1228</td>
+                            <td>Survey of US History</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Arts and Humanitites -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#generalEducationAccordion" href="#artsAndHumanities">Arts and Humanities
+                      <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="artsAndHumanities" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                        <thead>
+                          <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>MATH201</td>
+                            <td>Calculus I</td>
+                            <td>B+</td>
+                            <td style="color: red;">&#x2718;</td>
+                          </tr>
+                          <tr>
+                            <td>ENGL 1208</td>
+                            <td>Introduction to Literature</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Student Enrichment and Lifelong Fullfillment (SELF) -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#generalEducationAccordion" href="#self">Student Enrichment and Lifelong Fullfillment (SELF)
+                      <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="self" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                        <thead>
+                          <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>KINE 1018</td>
+                            <td>Lifetime Fitness</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Junior Year Diversity Reflection (JYDR) -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#generalEducationAccordion" href="#jydr">Junior Year Diversity Reflection (JYDR)
+                      <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="jydr" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                        <thead>
+                          <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>PHIL 3548</td>
+                            <td>Race, Class, Gender, Sexuality</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Graduation Writing Assessment Requirement (GWAR) -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#generalEducationAccordion" href="#gwar">Graduation Writing Assessment Requirement (GWAR)
+                      <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="gwar" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                        <thead>
+                          <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>ENGL 3109</td>
+                            <td>Modes of Writing</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Capstone -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#generalEducationAccordion" href="#capstone">Capstone
+                      <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="capstone" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                        <thead>
+                          <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>CMPS 4928</td>
+                            <td>Senior Project II</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- Major Requirements -->
+<div class="container">
+    <div class="panel-group" id="majorRequirementsAccordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#majorRequirementsAccordion" href="#majorRequirements">Major Requirements <span class="arrow glyphicon glyphicon-chevron-down"></span></a>
+          </h4>
+        </div>
+        <div id="majorRequirements" class="panel-collapse collapse">
+          <div class="panel-body">
+            <div class="panel-group" id="majorRequirementsInnerAccordion">
+              <!-- Lower Division Courses -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#majorRequirementsInnerAccordion" href="#lowerDivision">Lower Division Core 
+                        <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="lowerDivision" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <!-- Add table for lower division courses here -->
+                    <table class="table table-striped custom-bordered custom-thead">
+                      <thead class="custom-thead">
+                        <tr>
+                          <th>Course ID</th>
+                          <th>Course Name</th>
+                          <th>Grade</th>
+                          <th>Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>CMPS 2010</td>
+                          <td>Programming Fundamentals</td>
+                          <td>A</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                        <tr>
+                          <td>CMPS 2020</td>
+                          <td>Data Structures and Algorithms</td>
+                          <td>B+</td>
+                          <td style="color: red;">&#x2718;</td>
+                        </tr>
+                        <tr>
+                          <td>CMPS 3120</td>
+                          <td>Discrete Structures</td>
+                          <td>B</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                        <tr>
+                          <td>CMPS 2240</td>
+                          <td>Computer Architecture 1</td>
+                          <td>B</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Upper Division Courses -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#majorRequirementsInnerAccordion" href="#upperDivision">Upper Division Core 
+                      <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="upperDivision" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <!-- Add table for upper division courses here -->
+                    <table class="table table-striped custom-bordered custom-thead">
+                        <thead class="custom-thead">
+                          <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>CMPS 3120</td>
+                            <td>Algorithm Analysis</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 3140</td>
+                            <td>Theory of Computation</td>
+                            <td>B+</td>
+                            <td style="color: red;">&#x2718;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 3240</td>
+                            <td>Computer Architecture II</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 3350</td>
+                            <td>Software Engineering</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 3420</td>
+                            <td>Database Systems</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 3500</td>
+                            <td>Programming Languages</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 3560</td>
+                            <td>Artificial Intelligence</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 3600</td>
+                            <td>Operating Systems</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 3620</td>
+                            <td>Computer Networks</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 3640</td>
+                            <td>Distributed and Parallel Computation</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 4910 </td>
+                            <td>Senior Project I</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                          <tr>
+                            <td>CMPS 4920</td>
+                            <td>Senior Project II</td>
+                            <td>B</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Upper Division Electives -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#majorRequirementsInnerAccordion" href="#upperElectives">Upper Division Electives 
+                        <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="upperElectives" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                      <thead class="custom-thead">
+                        <tr>
+                          <th>Course ID</th>
+                          <th>Course Name</th>
+                          <th>Grade</th>
+                          <th>Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>CMPS 4480</td>
+                          <td>Computer Animation</td>
+                          <td>A</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                        <tr>
+                          <td>CMPS 4490</td>
+                          <td>Game Devolopment</td>
+                          <td>B+</td>
+                          <td style="color: red;">&#x2718;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Cognative Requirements -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#majorRequirementsInnerAccordion" href="#cogRequirements">Cognative Requirements 
+                        <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="cogRequirements" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                      <thead class="custom-thead">
+                        <tr>
+                          <th>Course ID</th>
+                          <th>Course Name</th>
+                          <th>Grade</th>
+                          <th>Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>MATH 2510</td>
+                          <td>Calculus I</td>
+                          <td>A</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                        <tr>
+                          <td>Math 2520</td>
+                          <td>Calculus II</td>
+                          <td>B+</td>
+                          <td style="color: red;">&#x2718;</td>
+                        </tr>
+                        <tr>
+                          <td>MATH 3200</td>
+                          <td>Probability Theory</td>
+                          <td>B</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                        <tr>
+                          <td>PHYS 2210</td>
+                          <td>Physics I</td>
+                          <td>B</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                        <tr>
+                          <td>PHYS 2220</td>
+                          <td>Physics II</td>
+                          <td>B</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                        <tr>
+                          <td>Math/Science Elective</td>
+                          <td>Physics III</td>
+                          <td>B</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                        <tr>
+                          <td>PHIL 3310</td>
+                          <td>Professional Ethics</td>
+                          <td>B</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Additional Units -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#majorRequirementsInnerAccordion" href="#addUnits">Additional Units 
+                        <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="addUnits" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <table class="table table-striped custom-bordered custom-thead">
+                      <thead class="custom-thead">
+                        <tr>
+                          <th>Course ID</th>
+                          <th>Course Name</th>
+                          <th>Grade</th>
+                          <th>Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Math 1500</td>
+                          <td>PreCalc I</td>
+                          <td>A</td>
+                          <td style="color: green;">&#x2714;</td>
+                        </tr>
+                        <tr>
+                          <td>MATH 1600</td>
+                          <td>PreCalc II</td>
+                          <td>B+</td>
+                          <td style="color: red;">&#x2718;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 <br>
 <br>
+<br>
+<br>
+<!-- Career Section -->
+<section id="career-section">
+  <div class="container">
+    <h3 class="career-title">Career Resources</h3>
+    <div class="row">
+      <div class="col-md-4 career-box">
+        <h3>Job Sites</h3>
+        <p> Looking for a job? Try out these job sites to find your next opportunity: </p>
+        <ul>
+          <li><a href="https://www.indeed.com" target = "_blank"> Indeed </a> - Search for jobs & internships </li>
+          <li><a href="https://www.linkedin.com" target = "_blank"> Linkedin </a> - Search for jobs, internships & build connections </li>
+          <li><a href="https://www.glassdoor.com" target = "_blank"> Glassdoor </a> - Search for jobs & competitive salaries </li>
+          <li><a href="https://www.dice.com" target = "_blank"> Dice </a> - Search for jobs in tech </li>
+          <li><a href="https://www.usajobs.gov." target = "_blank"> USAJobs </a> - Search for jobs in the U.S. government </li>
+        </ul>
+      </div>
+      <div class="col-md-4 career-box">
+        <h3>Internship Opportunities</h3>
+        <p> Need an internship? Try out these internship sites to start gaining some work experience:  </p>
+        <ul>
+        <li><a href="https://www.joinhandshake.com" target = "_blank">Handshake </a> - Students with no work experience and various job listings </li>
+          <li><a href="https://www.wayup.com" target = "_blank">WayUp </a> - Entry-level and Fortune 500 companies</li>
+          <li><a href="https://www.internships.com" target = "_blank"> Chegg Internships </a> - Internships in tech, finance, accounting & marketing</li>
+          <li><a href="https://www.internmatch.com" target = "_blank"> InternMatch </a> - Meet specific internship requirements of both undergraduate and graduate students  </li>
+        </ul>
+      </div>
+      <div class="col-md-4 career-box">
+        <h3>Interview & Resume Resources </h3>
+        <p> Need help with your resume or interview skills? Try out these resources to help you prepare: </p>
+        <ul>
+          <li><a href="https://www.leetcode.com" target = "_blank">Leetcode</a> - Enhance your skills and practice common technical interview questions </li>
+          <li><a href="https://www.biginterview.com" target = "_blank">Big Interview</a> - Step-by-step interview preparation, coaching & practice interviews</li>
+          <li><a href="https://www.csub.edu/cece/Student%20and%20Alumni/index.html" target = "_blank">CSUB CECE </a> - Interview skillbuilding, resume guide/templates, career events </li>
+          <li><a href="https://www.resume.com" target = "_blank">Free Resume Builder </a> - Professional resume builder/templates with a step-by-step creator </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 <br>
 <br>
 <footer class="footer-bottom">
