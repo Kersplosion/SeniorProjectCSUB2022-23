@@ -86,6 +86,7 @@
   </table>
 </div>
 <br>
+<br>
 <!--Accordion that displays student course history -->
 <!-- Source: https://www.w3schools.com/bootstrap/bootstrap_collapse.asp -->
 <!-- General Education Requirements -->
