@@ -67,8 +67,8 @@ img {
     color: rgb(8, 8, 186);
 }
 
-/* Major Requirements Section */
-.major-requirements {
+/* Undergrad Requirements Section */
+.undergrad-requirements {
     background-color: #ffffff;
     padding: 40px;
     margin: 40px 10;
@@ -76,28 +76,82 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.major-requirements h3 {
+.undergrad-requirements h3 {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 20px;
     color: #333;
 }
 
-.major-requirements .progress {
+.undergrad-requirements .progress {
     height: 25px;
     background-color: #f0f0f0;
     border-radius: 5px;
 }
 
-.major-requirements .progress-bar {
+.undergrad-requirements .progress-bar {
     background-color: #007bff;
     border-radius: 5px;
 }
 
 /* Hover Effects and Transitions */
-.major-requirements .progress-bar:hover {
+.undergrad-requirements .progress-bar:hover {
     background-color: #0056b3;
     transition: background-color 0.3s;
+}
+
+/* Career Section */
+#career-section {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.career-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.career-box p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.career-box {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.career-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.career-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.career-box ul li {
+    padding: 5px 0;
+}
+
+.career-box ul li a {
+    color: rgb(8, 8, 186);
+    text-decoration: none;
+}
+
+.career-box ul li a:hover {
+    color: rgb(240, 240, 14);
 }
 
 .student-info {
@@ -158,21 +212,6 @@ img {
     color: grey;
 }
 
-/* Change the background color of the button */
-.btn-custom-collapsible {
-    background-color: rgb(8, 8, 186); 
-    color: white;
-}
-
-  /* Change the background color of the button on hover and focus */
-.btn-custom-collapsible:hover,
-.btn-custom-collapsible:focus {
-    background-color: rgb(0, 0, 205); 
-    color: white; 
-    text-decoration: none;
-    outline: none;
-    box-shadow: none;
-}
 
   /* Change the background color of the table header */
 table.custom-thead > thead > tr > th {
