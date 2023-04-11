@@ -258,6 +258,14 @@ footer {
     width: 100%;
 }
 
+@media (max-width: 767px) {
+    .table.custom-bordered th,
+    .table.custom-bordered td {
+        font-size: 0.9em; 
+        padding: 3px; 
+    }
+}
+
 
 
 
