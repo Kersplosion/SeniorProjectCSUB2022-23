@@ -121,6 +121,7 @@
                           <tr>
                             <th>Course ID</th>
                             <th>Course Name</th>
+                            <th>Units</th>
                             <th>Grade</th>
                             <th>Status</th>
                           </tr>
@@ -129,27 +130,31 @@
                           <tr>
                             <td>COMM 1088</td>
                             <td>Communication</td>
+                            <td>3</td>
                             <td>A</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>ENGL 1109</td>
                             <td>Writing and Research</td>
+                            <td>3</td>
                             <td>B+</td>
                             <td style="color: red;">&#x2718;</td>
                           </tr>
                           <tr>
                             <td>PHIL 1019</td>
                             <td>Critical Thinking</td>
+                            <td>3</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
-                            <tr>
-                                <td>Math 1050</td>
-                                <td>Precalc 1</td>
-                                <td>A</td>
-                                <td style="color: green;">&#x2714;</td>
-                            </tr>
+                          <tr>
+                            <td>Math 1050</td>
+                            <td>Precalc 1</td>
+                            <td>4</td>
+                            <td>A</td>
+                            <td style="color: green;">&#x2714;</td>
+                          </tr>
                         </tbody>
                     </table>
                    </div>
@@ -171,6 +176,7 @@
                           <tr>
                             <th>Course ID</th>
                             <th>Course Name</th>
+                            <th>Units</th>
                             <th>Grade</th>
                             <th>Status</th>
                           </tr>
@@ -179,6 +185,7 @@
                           <tr>
                             <td>PHYS 2210</td>
                             <td>Calc-Based Physics</td>
+                            <td>4</td>
                             <td>A</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
@@ -203,6 +210,7 @@
                           <tr>
                             <th>Course ID</th>
                             <th>Course Name</th>
+                            <th>Units</th>
                             <th>Grade</th>
                             <th>Status</th>
                           </tr>
@@ -211,12 +219,14 @@
                           <tr>
                             <td>PLSI 1018</td>
                             <td>American Governement & Politics</td>
+                            <td>3</td>
                             <td>A</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>HIST 1228</td>
                             <td>Survey of US History</td>
+                            <td>3</td>
                             <td>A</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
@@ -241,20 +251,23 @@
                           <tr>
                             <th>Course ID</th>
                             <th>Course Name</th>
+                            <th>Units</th>
                             <th>Grade</th>
                             <th>Status</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>MATH201</td>
+                            <td>MATH2010</td>
                             <td>Calculus I</td>
+                            <td>4</td>
                             <td>B+</td>
                             <td style="color: red;">&#x2718;</td>
                           </tr>
                           <tr>
                             <td>ENGL 1208</td>
                             <td>Introduction to Literature</td>
+                            <td>3</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
@@ -279,6 +292,7 @@
                           <tr>
                             <th>Course ID</th>
                             <th>Course Name</th>
+                            <th>Units</th>
                             <th>Grade</th>
                             <th>Status</th>
                           </tr>
@@ -287,6 +301,7 @@
                           <tr>
                             <td>KINE 1018</td>
                             <td>Lifetime Fitness</td>
+                            <td>3</td>
                             <td>A</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
@@ -311,6 +326,7 @@
                           <tr>
                             <th>Course ID</th>
                             <th>Course Name</th>
+                            <th>Units</th>
                             <th>Grade</th>
                             <th>Status</th>
                           </tr>
@@ -319,6 +335,7 @@
                           <tr>
                             <td>PHIL 3548</td>
                             <td>Race, Class, Gender, Sexuality</td>
+                            <td>3</td>
                             <td>A</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
@@ -343,6 +360,7 @@
                           <tr>
                             <th>Course ID</th>
                             <th>Course Name</th>
+                            <th>Units</th>
                             <th>Grade</th>
                             <th>Status</th>
                           </tr>
@@ -351,6 +369,7 @@
                           <tr>
                             <td>ENGL 3109</td>
                             <td>Modes of Writing</td>
+                            <td>3</td>
                             <td>A</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
@@ -375,6 +394,7 @@
                           <tr>
                             <th>Course ID</th>
                             <th>Course Name</th>
+                            <th>Units</th>
                             <th>Grade</th>
                             <th>Status</th>
                           </tr>
@@ -383,6 +403,7 @@
                           <tr>
                             <td>CMPS 4928</td>
                             <td>Senior Project II</td>
+                            <td>2</td>
                             <td>A</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
@@ -426,6 +447,7 @@
                         <tr>
                           <th>Course ID</th>
                           <th>Course Name</th>
+                          <th>Units</th>
                           <th>Grade</th>
                           <th>Status</th>
                         </tr>
@@ -434,24 +456,28 @@
                         <tr>
                           <td>CMPS 2010</td>
                           <td>Programming Fundamentals</td>
+                          <td>4</td>
                           <td>A</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>CMPS 2020</td>
                           <td>Data Structures and Algorithms</td>
+                          <td>4</td>
                           <td>B+</td>
                           <td style="color: red;">&#x2718;</td>
                         </tr>
                         <tr>
-                          <td>CMPS 3120</td>
+                          <td>CMPS 2120</td>
                           <td>Discrete Structures</td>
+                          <td>4</td>
                           <td>B</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>CMPS 2240</td>
                           <td>Computer Architecture 1</td>
+                          <td>4</td>
                           <td>B</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
@@ -477,6 +503,7 @@
                           <tr>
                             <th>Course ID</th>
                             <th>Course Name</th>
+                            <th>Units</th>
                             <th>Grade</th>
                             <th>Status</th>
                           </tr>
@@ -485,72 +512,84 @@
                           <tr>
                             <td>CMPS 3120</td>
                             <td>Algorithm Analysis</td>
+                            <td>3</td>
                             <td>A</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 3140</td>
                             <td>Theory of Computation</td>
+                            <td>3</td>
                             <td>B+</td>
                             <td style="color: red;">&#x2718;</td>
                           </tr>
                           <tr>
                             <td>CMPS 3240</td>
                             <td>Computer Architecture II</td>
+                            <td>4</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 3350</td>
                             <td>Software Engineering</td>
+                            <td>4</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 3420</td>
                             <td>Database Systems</td>
+                            <td>4</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 3500</td>
                             <td>Programming Languages</td>
+                            <td>3</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 3560</td>
                             <td>Artificial Intelligence</td>
+                            <td>3</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 3600</td>
                             <td>Operating Systems</td>
+                            <td>4</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 3620</td>
                             <td>Computer Networks</td>
+                            <td>4</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 3640</td>
                             <td>Distributed and Parallel Computation</td>
+                            <td>3</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 4910 </td>
                             <td>Senior Project I</td>
+                            <td>2</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
                           <tr>
                             <td>CMPS 4920</td>
                             <td>Senior Project II</td>
+                            <td>2</td>
                             <td>B</td>
                             <td style="color: green;">&#x2714;</td>
                           </tr>
@@ -575,6 +614,7 @@
                         <tr>
                           <th>Course ID</th>
                           <th>Course Name</th>
+                          <th>Units</th>
                           <th>Grade</th>
                           <th>Status</th>
                         </tr>
@@ -583,12 +623,14 @@
                         <tr>
                           <td>CMPS 4480</td>
                           <td>Computer Animation</td>
+                          <td>4</td>
                           <td>A</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>CMPS 4490</td>
                           <td>Game Devolopment</td>
+                          <td>4</td>
                           <td>B+</td>
                           <td style="color: red;">&#x2718;</td>
                         </tr>
@@ -613,6 +655,7 @@
                         <tr>
                           <th>Course ID</th>
                           <th>Course Name</th>
+                          <th>Units</th>
                           <th>Grade</th>
                           <th>Status</th>
                         </tr>
@@ -621,42 +664,49 @@
                         <tr>
                           <td>MATH 2510</td>
                           <td>Calculus I</td>
+                          <td>4</td>
                           <td>A</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>Math 2520</td>
                           <td>Calculus II</td>
+                          <td>4</td>
                           <td>B+</td>
                           <td style="color: red;">&#x2718;</td>
                         </tr>
                         <tr>
                           <td>MATH 3200</td>
                           <td>Probability Theory</td>
+                          <td>3</td>
                           <td>B</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>PHYS 2210</td>
                           <td>Physics I</td>
+                          <td>4</td>
                           <td>B</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>PHYS 2220</td>
                           <td>Physics II</td>
+                          <td>4</td>
                           <td>B</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>Math/Science Elective</td>
                           <td>Physics III</td>
+                          <td>4</td>
                           <td>B</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>PHIL 3310</td>
                           <td>Professional Ethics</td>
+                          <td>3</td>
                           <td>B</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
@@ -681,6 +731,7 @@
                         <tr>
                           <th>Course ID</th>
                           <th>Course Name</th>
+                          <th>Units</th>
                           <th>Grade</th>
                           <th>Status</th>
                         </tr>
@@ -689,12 +740,14 @@
                         <tr>
                           <td>Math 1500</td>
                           <td>PreCalc I</td>
+                          <td>4</td>
                           <td>A</td>
                           <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>MATH 1600</td>
                           <td>PreCalc II</td>
+                          <td>4</td>
                           <td>B+</td>
                           <td style="color: red;">&#x2718;</td>
                         </tr>
