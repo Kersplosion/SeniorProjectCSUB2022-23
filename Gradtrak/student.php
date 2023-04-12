@@ -1,6 +1,8 @@
 <?php
 
 ?>
+<!--Nice -->
+<!--Nice -->
 <!--Source: https://www.w3schools.com/bootstrap/bootstrap_navbar.asp -->
 <!DOCTYPE html>
 <html lang="en">
