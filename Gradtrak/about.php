@@ -14,7 +14,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -40,12 +39,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-
-<br>
-<br>
-<br>
 <!--Source: https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp -->
 <div class="jumbotron">
   <h1>About Us</h1>  
@@ -59,7 +52,6 @@
 </div>  
 <br>
 <br>
-
 <!--Source: https://www.w3schools.com/bootstrap/bootstrap_images.asp -->
 <!--Source: https://www.w3schools.com/bootstrap/ -->
 <div class="container-fluid2 text-center">
