@@ -465,7 +465,7 @@
                           <td>Data Structures and Algorithms</td>
                           <td>4</td>
                           <td>B+</td>
-                          <td style="color: red;">&#x2718;</td>
+                          <td style="color: green;">&#x2714;</td>
                         </tr>
                         <tr>
                           <td>CMPS 2120</td>
