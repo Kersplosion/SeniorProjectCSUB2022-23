@@ -12,8 +12,22 @@ h4 {
     text-align: center;
 }
 
+h5 {
+    text-align: left;
+    font-size: 22px;
+}
+
 img {
-    width: 50%;
+    width: 99%;
+}
+
+p {
+    text-align: left;
+    font-size: 15px;
+}
+p.title {
+    color: grey;
+    font-size: 16px;
 }
 
 /*Change bootstrap css navbar header color */
@@ -100,6 +114,10 @@ img {
     transition: background-color 0.3s;
 }
 
+.carousel-item {
+    padding: 6px;
+}
+
 /* Career Section */
 #career-section {
     background-color: #f8f8f8;
@@ -174,23 +192,15 @@ img {
     text-align: left;
 }
 
-/* Change color of jumpotron background */
-.jumbotron {
-    background-color: rgb(8, 8, 186);
-    color: white;
+.jumbotron p{
+    color: rgb(92, 92, 92);
+    padding: 3px;
 }
 
-/* Change containter fluid2 background color  */
-/*
-.container-fluid2 {
-    background-color: rgb(8, 8, 186);
-    border-color:rgb(240, 240, 14);
-    color: white;
-}
-*/
+
 
 /* Change column text color to black and align text center */
-.col-sm-3 {
+.col-xs-6col-sm-3 {
     z-index: inherit;
     color: black;
     text-align: center;
@@ -212,6 +222,25 @@ img {
     color: grey;
 }
 
+/* Featurette styles */
+.featurette-divider {
+    margin: 80px 0;
+}
+  
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+  
+.featurette {
+    padding-top: 120px;
+}
+  
+.featurette-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
 
   /* Change the background color of the table header */
 table.custom-thead > thead > tr > th {
