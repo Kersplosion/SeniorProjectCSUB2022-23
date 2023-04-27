@@ -191,6 +191,14 @@ p.title {
     text-align: left;
 }
 
+.jumbotron {
+    background-color:rgb(8, 8, 186);
+}
+
+.jumbotron h1 {
+    color: white;
+}
+
 .jumbotron p{
     color: rgb(92, 92, 92);
     padding: 3px;
