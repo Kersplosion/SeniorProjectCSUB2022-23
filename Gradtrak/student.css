@@ -195,6 +195,10 @@ p.title {
     color:rgb(5, 5, 166)
 }
 
+.text-muted {
+    color:rgb(5, 5, 166);
+}
+
 .jumbotron {
     background-color:rgb(8, 8, 186);
 }
