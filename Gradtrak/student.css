@@ -191,6 +191,10 @@ p.title {
     text-align: left;
 }
 
+.student-info table > thead > tr > th {
+    color:rgb(5, 5, 166)
+}
+
 .jumbotron {
     background-color:rgb(8, 8, 186);
 }
