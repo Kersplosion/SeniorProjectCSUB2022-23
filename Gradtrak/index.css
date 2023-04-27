@@ -16,6 +16,15 @@ h5 {
     font-size: 20px;
 }
 
+a {
+    color: rgb(5, 5, 166);
+}
+
+a:hover {
+    color: rgb(240, 240, 14);
+
+}
+
 
 .jumbotron {
     /* background-color to blue */
