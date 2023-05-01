@@ -100,7 +100,7 @@ echo '<h3>Welcome ' .$row["Name"]. '</h3>';
       <?php
 $net_id = $_SESSION['NetID'];
 $db = get_mysqli_connection();
-$query = "SELECT StudentID, Name, Major, OverallGPA, TotalUnits FROM StudentInfo WHERE NetID = ?";
+$query = "SELECT StudentID, Name, Major, OverallGPA, TotalCompletedUnits FROM AutoIncStudentInfo WHERE NetID = ?";
 $query = $db->prepare($query);
 $query-> bind_param("s", $net_id);
 $query->execute();
@@ -109,7 +109,7 @@ $result = $query->get_result();
 if ($result -> num_rows > 0) {
   while ($row = $result-> fetch_assoc()) {
     echo "<tr><td>". $row["StudentID"] ."</td><td>". $row["Name"] ."</td><td>". 
-    $row["Major"] ."</td><td>". $row["OverallGPA"] ."</td><td>". $row["TotalUnits"] ."/120</td></tr>";
+    $row["Major"] ."</td><td>". $row["OverallGPA"] ."</td><td>". $row["TotalCompletedUnits"] ."/120</td></tr>";
   }
   echo "</table>";
 }
