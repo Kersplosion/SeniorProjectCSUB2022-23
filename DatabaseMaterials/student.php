@@ -109,7 +109,7 @@ $result = $query->get_result();
 if ($result -> num_rows > 0) {
   while ($row = $result-> fetch_assoc()) {
     echo "<tr><td>". $row["StudentID"] ."</td><td>". $row["Name"] ."</td><td>". 
-    $row["Major"] ."</td><td>". $row["OverallGPA"] ."</td><td>". $row["TotalUnits"] ."</td></tr>";
+    $row["Major"] ."</td><td>". $row["OverallGPA"] ."</td><td>". $row["TotalUnits"] ."/120</td></tr>";
   }
   echo "</table>";
 }
