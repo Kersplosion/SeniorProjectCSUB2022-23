@@ -74,10 +74,23 @@ echo '<h3>Welcome ' .$row["Name"]. '</h3>';
   <br>
   <!-- Animated progress bar -->
   <!-- Source: https://www.w3schools.com/bootstrap/bootstrap_progressbars.asp -->
-    <h4>Major Requirements Completed: </h4>
+    <h3>Undergraduate Requirements Completed: </h3>
+    
+    <?php
+$net_id = $_SESSION['NetID'];
+$db = get_mysqli_connection();
+$query = "SELECT Percent FROM AutoIncStudentInfo WHERE NetID = ?";
+$query = $db->prepare($query);
+$query-> bind_param("s", $net_id);
+$query->execute();
+$result = $query->get_result();
+$row = $result-> fetch_assoc();
+$percent = $row["Percent"];
+?> 
+    
     <div class="progress">
-        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-        70% Complete
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $percent; ?>%">
+        <?php echo $percent; ?>% Complete
         </div>
     </div>
     <br>
