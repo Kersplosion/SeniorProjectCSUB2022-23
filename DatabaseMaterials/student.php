@@ -45,8 +45,8 @@ if ($_SESSION["logged_in"] == false) {
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="https://www.csub.edu/contact" target="_blank">Contact</a></li>
+        <li><a href="about.php">About</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout </a></li>
@@ -58,7 +58,7 @@ if ($_SESSION["logged_in"] == false) {
 <br>
 <br>
 <br>  
-<div class="container major-requirements">  
+<div class="container undergrad-requirements">  
 
 <?php 
 $net_id = $_SESSION['NetID'];
@@ -75,8 +75,8 @@ echo '<h3>Welcome ' .$row["Name"]. '</h3>';
   <!-- Animated progress bar -->
   <!-- Source: https://www.w3schools.com/bootstrap/bootstrap_progressbars.asp -->
     <h3>Undergraduate Requirements Completed: </h3>
-    
-    <?php
+
+<?php
 $net_id = $_SESSION['NetID'];
 $db = get_mysqli_connection();
 $query = "SELECT Percent FROM AutoIncStudentInfo WHERE NetID = ?";
@@ -86,10 +86,10 @@ $query->execute();
 $result = $query->get_result();
 $row = $result-> fetch_assoc();
 $percent = $row["Percent"];
-?> 
-    
+?>    
+
     <div class="progress">
-        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $percent; ?>%">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $percent; ?>%">
         <?php echo $percent; ?>% Complete
         </div>
     </div>
@@ -122,7 +122,7 @@ $result = $query->get_result();
 if ($result -> num_rows > 0) {
   while ($row = $result-> fetch_assoc()) {
     echo "<tr><td>". $row["StudentID"] ."</td><td>". $row["Name"] ."</td><td>". 
-    $row["Major"] ."</td><td>". $row["OverallGPA"] ."</td><td>". $row["TotalCompletedUnits"] ."/120</td></tr>";
+    $row["Major"] ."</td><td>". $row["OverallGPA"] ."</td><td>". $row["TotalCompletedUnits"] . "/120</td></tr>";
   }
   echo "</table>";
 }
